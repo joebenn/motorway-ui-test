@@ -1,0 +1,31 @@
+.image-gallery-container {
+    display: flex;
+    width:100%;
+}
+
+.gallery {
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 250px));
+    gap: 1rem;
+}
+
+.selection {
+    width: 40%;
+    position: sticky;
+    top: 20px;
+    height: 93vh;
+    overflow-y: scroll;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;       
+}
+
+.selection-message {
+    font-size: 24px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
