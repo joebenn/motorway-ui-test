@@ -6,18 +6,21 @@
 ## Performace
 - Removed the timeout from server.js.
 - Webp version of image load with jpg as a fallback.
+- Service worker registered.
 
 ## Improvements (Production ready / more time)
 - Lazy load images in the gallery on scroll.
+- Placeholder image load / animation.
 - resize and compress images to a consistent and unified dimension.
 - Serve static assets over a CDN.
 - Use a form libary (such as Formik or equivilent).
-- Improve form validation beyond vanilla HTML, validateForm() function and display useful error messages.
+- Improve form validation beyond vanilla HTML, e.g, validateForm() function and display useful error messages.
 - Further accesibility improvements across the form
 - Add testing for each component.
 - Use Typescript, or use prop types in javascript.
 - SCSS for themeing and resubale css code.
 - Use a component library if permitted.
+- Set up ENV config, build out more performance checks in a development environment.
 
 &nbsp;
 
