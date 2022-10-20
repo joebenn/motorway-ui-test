@@ -11,6 +11,7 @@
 ## Improvements (Production ready / more time)
 - Lazy load images in the gallery on scroll.
 - Placeholder image load / animation.
+- Filter / sort images.
 - resize and compress images to a consistent and unified dimension.
 - Serve static assets over a CDN.
 - Use a form libary (such as Formik or equivilent).
